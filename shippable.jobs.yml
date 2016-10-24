@@ -81,8 +81,8 @@ jobs:
       #- OUT: testallpl-ecsdeploy67
       - IN: runShtest1
       - TASK:
-        - script: ./IN/sample-runSh1/gitRepo/echo.sh
-    on_success:
+        - script: ./IN/sample-runSh1sre/gitRepo/echo.sh
+    on_failure:
       - echo 'sreya'
  
  
