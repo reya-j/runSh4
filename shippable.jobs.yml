@@ -8,13 +8,24 @@ jobs:
       - IN: triggertestS1
       - TASK: managed
       
+  - name: testallpl-ecsdeploy
+    type: deploy
+    steps:
+      - IN: allpl-manifestN1
+      #  switch: off
+      # - IN: fl-manifest2multiimg
+      #   switch: off
+    #  - IN: allpl-dopts
+      - IN: allpl-ecscluster
+      
   - name: runShtest1
     type: runSh
   #  serial: true
     steps:
       - IN: sample-runSh1
       - IN: allpl-version
-      - IN: allpl-manifestN1
+      #- IN: allpl-manifestN1
+      - IN: testallpl-ecsdeploy
      ## - IN: allpl-image1
       #- IN: allpl-dopts
       #- IN: allpl-scale2
