@@ -77,7 +77,7 @@ jobs:
     steps:
       - IN: sample-runSh1
       - IN: triggertestS1
-      - OUT: allpl-image1
+      - OUT: allpl-image1thyy
       - IN: runShtest1
       - TASK:
         - script: ./IN/sample-runSh1/gitRepo/echo.sh
