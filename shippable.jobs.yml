@@ -4,6 +4,7 @@ jobs:
   #  serial: true
     steps:
       - IN: sample-runSh1
+      - IN: foo-resource
      # - IN: env
       - IN: triggertestS1
       - TASK:
