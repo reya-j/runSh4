@@ -10,6 +10,7 @@ jobs:
         - script: ./IN/sample-runSh1/gitRepo/echo.sh
         - script: pwd
         - script: ls
+        - script: echo 'testrunSh'
         - script: export FOO=bar
         - script: export FOO1=bar1
         - script: echo $FOO && echo $FOO1
@@ -36,7 +37,7 @@ jobs:
     steps:
       - IN: sample-runSh1
       - IN: triggertestS1
-      - IN: runShtest1
+    #  - IN: runShtest1
       - TASK:
         - script: ./IN/sample-runSh1/gitRepo/echo.sh
   
