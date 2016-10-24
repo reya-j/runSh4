@@ -1,11 +1,16 @@
 jobs:
   - name: runShtest1
-    type: runsh
+    type: runSh
   #  serial: true
     steps:
       - IN: sample-runSh1
+      - IN: allpl-version
+      - IN: allpl-image1
+      - IN: allpl-dopts
+      - IN: allpl-scale2
+       
       #  versionName: 28361828b3079fce434d84b1f8388aed167be15f
-        versionNumber: 1
+       # versionNumber: 1
       - IN: foo-resource
      # - IN: env
       - IN: triggertestS1
@@ -49,8 +54,9 @@ jobs:
     steps:
       - IN: sample-runSh1
       - IN: triggertestS1
-    #  - IN: runShtest1
+      - IN: runShtest1
       - TASK:
         - script: ./IN/sample-runSh1/gitRepo/echo.sh
   
+ 
  
