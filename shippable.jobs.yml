@@ -23,6 +23,7 @@ jobs:
     on_start:
       - NOTIFY: mySlackS1
       - NOTIFY: myEmailS1
+      - script: echo 'y1'
     on_success:
     #   #- uname -a
       - NOTIFY: myEmailS1
