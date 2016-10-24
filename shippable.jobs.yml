@@ -23,7 +23,7 @@ jobs:
     serial: false
     steps:
       - IN: sample-runSh1
-      - IN: allpl-image1
+      #- IN: allpl-image1
       - IN: allpl-version
       #- IN: allpl-manifestN1
      # - IN: testallpl-ecsdeploy
@@ -76,6 +76,7 @@ jobs:
     steps:
       - IN: sample-runSh1
       - IN: triggertestS1
+      - OUT: allpl-image1
       - IN: runShtest1
       - TASK:
         - script: ./IN/sample-runSh1/gitRepo/echo.sh
