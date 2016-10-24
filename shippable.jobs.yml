@@ -1,5 +1,5 @@
 jobs:
-  - name: runShtest1
+- name: runShtest1
     type: runSh
   #  serial: true
     steps:
@@ -9,7 +9,7 @@ jobs:
       - IN: foo-resource
      # - IN: env
       - IN: triggertestS1
-      #- TASK:
+      - TASK:
         - script: ./IN/sample-runSh1/gitRepo/echo.sh
         #- script: pwd
         #- script: ls
