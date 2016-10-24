@@ -3,15 +3,15 @@ resources:
     type: gitRepo
     integration: github
     pointer:
-      sourceName: shiphitchcock24/sample-script-3
+      sourceName: shiphitchcock4/sample-script-3
       branch: master
       
-  - name: sample-script-runSh2
-    type: gitRepo
-    integration: github
-    pointer:
-      sourceName: shiphitchcock24/sample-script-3
-      branch: master
+  #- name: sample-script-runSh2
+   # type: gitRepo
+   # integration: github
+   # pointer:
+    #  sourceName: shiphitchcock4/sample-script-3
+    #  branch: master
       
   # - name: mySlackS1
   #   type: notification
