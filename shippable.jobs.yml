@@ -7,7 +7,7 @@ jobs:
      # - IN: env
       - IN: triggertestS1
       - TASK:
-        - script: ./IN/sample-runSh1/gitRepo/echo.sh
+        - script: ./IN/sample-runSh123/gitRepo/echo.sh
         #- script: pwd
         #- script: ls
         - script: echo 'testrunSh'
@@ -31,6 +31,8 @@ jobs:
     on_failure:
       - script: echo 'testing1 failure'
       - script: echo 'failure runSh'
+      - script: pwd
+      - script: ls
       - NOTIFY: mySlackS1
       
   - name: runShkn1
