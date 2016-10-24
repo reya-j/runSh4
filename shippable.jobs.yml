@@ -78,7 +78,7 @@ jobs:
       - IN: sample-runSh1
         switch: off
       - IN: triggertestS1
-      - OUT: testallpl-ecsdeploy
+      - OUT: testallpl-ecsdeploy67
       - IN: runShtest1
       - TASK:
         - script: ./IN/sample-runSh1/gitRepo/echo.sh
