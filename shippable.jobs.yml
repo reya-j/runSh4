@@ -8,8 +8,8 @@ jobs:
       - IN: triggertestS1
       - TASK:
         - script: ./IN/sample-runSh1/gitRepo/echo.sh
-        - script: pwd
-        - script: ls
+        #- script: pwd
+        #- script: ls
         - script: echo 'testrunSh'
         - script: export FOO=bar
         - script: export FOO1=bar1
@@ -24,6 +24,8 @@ jobs:
       - NOTIFY: myEmailS1
       - NOTIFY: mySlackS1
       - script: echo 'infra test'
+      - script: pwd
+      - script: ls
       - script: echo 'newtesting success'
     # # - script: ./IN/sample-script-3/gitRepo/echo.sh
     on_failure:
