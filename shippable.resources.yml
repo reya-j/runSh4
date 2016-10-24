@@ -23,6 +23,12 @@ resources:
         - "sreya@shippable.com"
         - "shiphitchcock4@gmail.com"
         - "sreyaj10@gmail.com"
+  - name: foo-resource
+    type: params
+    version:
+      params:
+        foo: bar
+        secure: Fg/Ri785VMzRK4YFuauayX7e6JkmU7I6kC5jVKA+vuSsl315bPBiJNLBFX36vP/V8D0r1ql3tE6qLoe7SfLocLggeVs7PVI/r+Oyr4zNzTXd2zN7AfpNlr5dOOPtnFr9hqUbXNZiuCIUIx+uLqytomaezRuDtK0FyasQWqJ6jqvUNZGuG/62P32UoZfkmxhgGS/dXJjuGw2YhiP8fPfrjobmrJrtvTPyklOyTAqBNzwq7ONZfq+Pa2mI8unXEkB5K0cilhSAh5tZcDd4XC+YJMRf/oja7/6eebOlEl3xZSjRGO8GSdoUdltZrlLR5olpPiEFFLr9htHbhqjH7joMug==
 
       
   #- name: sample-script-runSh2
