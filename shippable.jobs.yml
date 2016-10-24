@@ -23,7 +23,7 @@ jobs:
     serial: true
     steps:
       - IN: sample-runSh1
-     
+      - IN: allpl-image1
       - IN: allpl-version
       #- IN: allpl-manifestN1
       - IN: testallpl-ecsdeploy
