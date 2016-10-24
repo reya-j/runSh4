@@ -20,7 +20,7 @@ jobs:
       
   - name: runShtest1
     type: runSh
-    serial: true
+    serial: false
     steps:
       - IN: sample-runSh1
       - IN: allpl-image1
@@ -72,7 +72,7 @@ jobs:
       
   - name: runShkn1
     type: runSh
-    serial: true
+    serial: false
     steps:
       - IN: sample-runSh1
       - IN: triggertestS1
