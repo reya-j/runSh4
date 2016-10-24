@@ -74,9 +74,9 @@ jobs:
   - name: runShkn1
     type: runSh
     serial: false
-    steps:
+    #steps:
       - IN: sample-runSh1
-        switch: off
+       # switch: off
       - IN: triggertestS1
       #- OUT: testallpl-ecsdeploy67
       - IN: runShtest1
