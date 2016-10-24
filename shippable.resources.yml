@@ -28,7 +28,7 @@ resources:
     version:
       params:
         foo: bar
-        secure: XT0qqsClQn2Wh40FRgbg3GTuCDdtolMhyhz80F2vbW36XMwU0h6yBn8VydaPsWtR0MCrScuO0/QIt1o+EoTjUEef4MZF0BN9kel66/z1XRLfrA88Yn3l+4/AkTSUjcc4GdUaJW6j1sBtExbw0cJMfRGaEu1EnJxZBiXYeZtXrqL0RNBanzrArXgV7so7v+GTkWOnXu+iiXx0NgQD0oDO/RT+bGPH70gZshTIq49TQbCFXfEWjK1eZ7e+Fy7+3fSTVpDGBcGG+ucgiLAcZxMXrop5Vk0jlC0+RyPjJw/bECDIP4f+QscnAlepuVK14Q1VzA0iafwYXQS8bihNe32sAg==
+        goo: gubu
         secure: Fg/Ri785VMzRK4YFuauayX7e6JkmU7I6kC5jVKA+vuSsl315bPBiJNLBFX36vP/V8D0r1ql3tE6qLoe7SfLocLggeVs7PVI/r+Oyr4zNzTXd2zN7AfpNlr5dOOPtnFr9hqUbXNZiuCIUIx+uLqytomaezRuDtK0FyasQWqJ6jqvUNZGuG/62P32UoZfkmxhgGS/dXJjuGw2YhiP8fPfrjobmrJrtvTPyklOyTAqBNzwq7ONZfq+Pa2mI8unXEkB5K0cilhSAh5tZcDd4XC+YJMRf/oja7/6eebOlEl3xZSjRGO8GSdoUdltZrlLR5olpPiEFFLr9htHbhqjH7joMug==
 
       
