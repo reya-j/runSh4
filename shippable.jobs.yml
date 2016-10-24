@@ -76,6 +76,7 @@ jobs:
     serial: false
     steps:
       - IN: sample-runSh1
+        switch: off
       - IN: triggertestS1
       - OUT: testallpl-ecsdeploy
       - IN: runShtest1
