@@ -4,7 +4,7 @@ jobs:
   #  serial: true
     steps:
       - IN: sample-runSh1
-        versionName: f7ab9f42fe1f8125054ccb50478e106073e26b20
+        versionName: 28361828b3079fce434d84b1f8388aed167be15f
       - IN: foo-resource
      # - IN: env
       - IN: triggertestS1
