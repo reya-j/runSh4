@@ -20,7 +20,7 @@ jobs:
       
   - name: runShtest1
     type: runSh
-  #  serial: true
+    serial: true
     steps:
       - IN: sample-runSh1
      
@@ -72,11 +72,10 @@ jobs:
       
   - name: runShkn1
     type: runSh
-  #  serial: true
+    serial: true
     steps:
       - IN: sample-runSh1
       - IN: triggertestS1
-      - IN: mySlackS1
       - IN: runShtest1
       - TASK:
         - script: ./IN/sample-runSh1/gitRepo/echo.sh
