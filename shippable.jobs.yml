@@ -23,7 +23,7 @@ jobs:
     type: runSh
     serial: false
     steps:
-      - IN: sample-runSh1
+      - IN: sample-runprivate
       #- IN: allpl-image1
       - IN: allpl-version
       #- IN: allpl-manifestN1
@@ -38,7 +38,7 @@ jobs:
      # - IN: env
       - IN: triggertestS1
       - TASK:
-        - script: ./IN/sample-runSh1/gitRepo/echo.sh
+        - script: ./IN/sample-runprivate/gitRepo/echo.sh
         #- script: pwd
         #- script: ls
         - script: echo 'testrunSh'
