@@ -19,6 +19,10 @@ jobs:
         # - script: echo "$n1"
         # - script: echo 'new'
     #     #- script: "sudo apt-get install tree"
+    
+    on_start:
+      - NOTIFY: mySlackS1
+      - NOTIFY: myEmailS1
     on_success:
     #   #- uname -a
       - NOTIFY: myEmailS1
