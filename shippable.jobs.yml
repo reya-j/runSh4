@@ -26,7 +26,7 @@ jobs:
       - IN: allpl-image1
       - IN: allpl-version
       #- IN: allpl-manifestN1
-      - IN: testallpl-ecsdeploy
+     # - IN: testallpl-ecsdeploy
      ## - IN: allpl-image1
       #- IN: allpl-dopts
       #- IN: allpl-scale2
