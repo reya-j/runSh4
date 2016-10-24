@@ -3,7 +3,8 @@ jobs:
   - name: allpl-manifestN1
     type: manifest
     steps:
-      - IN: allpl-image1
+     # - IN: allpl-image1
+      - IN: allpl-version
        # versionNumber: 100
       - IN: triggertestS1
       - TASK: managed
