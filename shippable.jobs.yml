@@ -76,13 +76,13 @@ jobs:
     serial: false
     steps:
       - IN: sample-runSh1
-      - IN: runShkn1
        # switch: off
       - IN: triggertestS1
       #- OUT: testallpl-ecsdeploy67
       - IN: runShtest1
       - TASK:
         - script: ./IN/sample-runSh1/gitRepo/echo.sh
-  
+    on_success:
+      - echo 'sreya'
  
  
