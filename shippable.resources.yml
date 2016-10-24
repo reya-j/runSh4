@@ -6,6 +6,13 @@ resources:
       sourceName: shiphitchcock4/sample-script-3
       branch: master
       
+  - name: sample-runprivate
+    type: gitRepo
+    integration: github
+    pointer:
+      sourceName: shiphitchcock4/testprivate
+      branch: master
+      
   - name: mySlackS1 
     type: notification
     integration: "ship-slack"
