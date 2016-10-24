@@ -23,6 +23,37 @@ resources:
         - "sreya@shippable.com"
         - "shiphitchcock4@gmail.com"
         - "sreyaj10@gmail.com"
+        
+  - name: allpl-ecscluster
+    type: cluster
+    integration: ship-ecs
+    pointer:
+      sourceName : "testCL"
+      region: "us-west-2"
+      
+  - name: allpl-version
+    type: version
+    seed:
+      versionName: "1.2.123-beta"
+        
+  - name: allpl-image1
+    type: image
+    integration: ship4-docker
+    pointer:
+      sourceName: "shippabledocker/pipelinev2"
+    seed:
+      versionName: "deploy.1"
+      
+  - name: allpl-dopts
+    type: dockerOptions
+    version:
+      memory: 100
+      
+  - name: allpl-scale2
+    type: replicas
+    version:
+      count: 2
+      
   - name: foo-resource
     type: params
     version:
