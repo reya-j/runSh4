@@ -28,7 +28,7 @@ resources:
     version:
       params:
         foo: bar
-        goo: gubu
+        goo= gubu
       #  secure: 123sreFg/Ri785VMzRK4YFuauayX7e6JkmU7I6kC5jVKA+vuSsl315bPBiJNLBFX36vP/V8D0r1ql3tE6qLoe7SfLocLggeVs7PVI/r+Oyr4zNzTXd2zN7AfpNlr5dOOPtnFr9hqUbXNZiuCIUIx+uLqytomaezRuDtK0FyasQWqJ6jqvUNZGuG/62P32UoZfkmxhgGS/dXJjuGw2YhiP8fPfrjobmrJrtvTPyklOyTAqBNzwq7ONZfq+Pa2mI8unXEkB5K0cilhSAh5tZcDd4XC+YJMRf/oja7/6eebOlEl3xZSjRGO8GSdoUdltZrlLR5olpPiEFFLr9htHbhqjH7joMug==
 
       
