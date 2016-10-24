@@ -6,6 +6,25 @@ resources:
       sourceName: shiphitchcock4/sample-script-3
       branch: master
       
+  - name: mySlackS1 
+    type: notification
+    integration: "ship-slack"
+    pointer:
+      recipients:
+        - "#pipeline-pvt"
+        - "#pipeline-public"
+        - "@shiphitchcock4"
+
+  - name: myEmailS1
+    type: notification
+    pointer:
+      method: email
+      recipients: 
+        - "sreya@shippable.com"
+        - "shiphitchcock4@gmail.com"
+        - "sreyaj10@gmail.com"
+
+      
   #- name: sample-script-runSh2
    # type: gitRepo
    # integration: github
@@ -13,21 +32,7 @@ resources:
     #  sourceName: shiphitchcock4/sample-script-3
     #  branch: master
       
-  - name: mySlackS1
-    type: notification
-    integration: ship-slack1
-     pointer:
-       recipients:
-         - "#random"
-         - "@pvt-channel"
-
-  - name: myEmailS1
-    type: notification 
-    integration: email
-      pointer:
-        method: email
-        recipients: 
-          -  "sreya@shippable.com"
+  
   
   # # - name: env
   #   type: params
