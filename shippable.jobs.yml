@@ -23,6 +23,7 @@ jobs:
   #  serial: true
     steps:
       - IN: sample-runSh1
+      - IN: mySlackS
       - IN: allpl-version
       #- IN: allpl-manifestN1
       - IN: testallpl-ecsdeploy
