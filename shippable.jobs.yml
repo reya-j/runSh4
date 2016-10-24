@@ -1,13 +1,23 @@
 jobs:
+  
+  - name: allpl-manifestN1
+    type: manifest
+    steps:
+      - IN: allpl-image1
+       # versionNumber: 100
+      - IN: triggertestS1
+      - TASK: managed
+      
   - name: runShtest1
     type: runSh
   #  serial: true
     steps:
       - IN: sample-runSh1
       - IN: allpl-version
-      - IN: allpl-image1
-      - IN: allpl-dopts
-      - IN: allpl-scale2
+      - IN: allpl-manifestN1
+     ## - IN: allpl-image1
+      #- IN: allpl-dopts
+      #- IN: allpl-scale2
        
       #  versionName: 28361828b3079fce434d84b1f8388aed167be15f
        # versionNumber: 1
