@@ -74,14 +74,14 @@ jobs:
   - name: runShkn1
     type: runSh
     serial: false
-    #steps:
-      - IN: sample-runSh1
+    steps:
+      #- IN: sample-runSh1
        # switch: off
-      - IN: triggertestS1
+      #- IN: triggertestS1
       #- OUT: testallpl-ecsdeploy67
-      - IN: runShtest1
-      - TASK:
-        - script: ./IN/sample-runSh1/gitRepo/echo.sh
+      #- IN: runShtest1
+      #- TASK:
+       # - script: ./IN/sample-runSh1/gitRepo/echo.sh
   
  
  
