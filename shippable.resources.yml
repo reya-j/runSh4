@@ -25,6 +25,7 @@ resources:
     type: notification 
     integration: email
       pointer:
+        method: email
         recipients: 
           -  "sreya@shippable.com"
   
