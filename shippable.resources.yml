@@ -13,20 +13,20 @@ resources:
     #  sourceName: shiphitchcock4/sample-script-3
     #  branch: master
       
-  # - name: mySlackS1
-  #   type: notification
-  #   integration: ship-slack1
-  #   pointer:
-  #     recipients:
-  #       - "#random"
-  #     # - "@pvt-channel"
+  - name: mySlackS1
+    type: notification
+    integration: ship-slack1
+     pointer:
+       recipients:
+         - "#random"
+         - "@pvt-channel"
 
-  # - name: myEmailS1
-  #   type: notification 
-  #   integration: email
-  #   pointer:
-  #     recipients: 
-  #       -  "sreya@shippable.com"
+  - name: myEmailS1
+    type: notification 
+    integration: email
+      pointer:
+        recipients: 
+          -  "sreya@shippable.com"
   
   # # - name: env
   #   type: params
