@@ -4,7 +4,7 @@ jobs:
     type: manifest
     steps:
       - IN: allpl-image2
-      - IN:  testallpl-ecsdeploy
+      - OUT:  testallpl-ecsdeploy
         #switch: off
       - IN: allpl-image1
        # versionNumber: 29000
