@@ -6,7 +6,7 @@ jobs:
       #- IN: allpl-image1
       - IN: allpl-image2
        # versionNumber: 29000
-        versionName: "latest"
+        versionName: "srelatest"
       - IN: triggertestS1
       - TASK: managed
   
