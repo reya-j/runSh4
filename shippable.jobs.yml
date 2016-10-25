@@ -4,7 +4,7 @@ jobs:
     type: manifest
     steps:
       - IN: allpl-image2
-      - OUT:  testallpl-ecsdeploy
+      - OUT: testallpl-ecsdeploy
       - OUT: runShtest1
         #switch: off
       - IN: allpl-image1
