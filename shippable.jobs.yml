@@ -8,7 +8,7 @@ jobs:
        # versionNumber: 29000
        # versionName: "srelatest"
       - IN: triggertestS1
-      - TASK: managed
+    #  - TASK: managed
   
   
   
@@ -20,7 +20,7 @@ jobs:
     steps:
       - IN: allpl-image1
         versionNumber: 2476
-      - IN: allpl-manifestnew
+    #  - IN: allpl-manifestnew
      # - IN: allpl-image2
       - IN: allpl-dopts
       - IN: allpl-scale2
