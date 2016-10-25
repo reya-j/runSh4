@@ -33,7 +33,7 @@ resources:
   - name: myEmailS1
     type: notification
     pointer:
-      method: emailslack
+      method: slemailslack
       recipients: 
         - "sreya@shippable.com"
         - "shiphitchcock4@gmail.com"
