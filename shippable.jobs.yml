@@ -6,7 +6,7 @@ jobs:
       #- IN: allpl-image1
       - IN: allpl-image2
        # versionNumber: 29000
-        versionName: "srelatest"
+       # versionName: "srelatest"
       - IN: triggertestS1
       - TASK: managed
   
@@ -19,6 +19,7 @@ jobs:
     type: manifest
     steps:
       - IN: allpl-image1
+        versionNumber: 2476
       - IN: allpl-manifestnew
      # - IN: allpl-image2
       - IN: allpl-dopts
