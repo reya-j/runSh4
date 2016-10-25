@@ -1,11 +1,21 @@
 jobs:
   
+  - name: allpl-release11
+    type: release
+    steps:
+      - IN: allpl-version
+         #versionName: testrelease
+      - TASK: managed
+        bump: beta
+      - IN: triggertestS1
+    flags:
+      - release_allpl
+      
   - name: allpl-manifestnew
     type: manifest
     steps:
       - IN: allpl-image2
-      - OUT: testallpl-ecsdeploy
-      - OUT: runShtest1
+      - IN: allpl-release11
         #switch: off
       - IN: allpl-image1
        # versionNumber: 29000
@@ -27,7 +37,7 @@ jobs:
      # - IN: allpl-image2
       - IN: allpl-dopts
       - IN: allpl-scale2
-      - IN: allpl-version
+      #- IN: allpl-version
       - IN: foo-resource
       - IN: foo-resource2
       - IN: allpl-lb
