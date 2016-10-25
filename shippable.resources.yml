@@ -26,14 +26,15 @@ resources:
     integration: "ship-slack"
     pointer:
       recipients:
-        - "#pipeline-pvt"
-        - "#pipeline-public"
-        - "@shiphitchcock4"
+        - theyare
+       # - "#pipeline-pvt"
+       # - "#pipeline-public"
+       # - "@shiphitchcock4"
 
   - name: myEmailS1
     type: notification
     pointer:
-      method: emailslack
+      method: email
       recipients: 
         - "sreya@shippable.com"
         - "shiphitchcock4@gmail.com"
