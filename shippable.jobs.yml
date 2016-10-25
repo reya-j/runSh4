@@ -12,17 +12,17 @@ jobs:
     flags:
       - release_allpl
       
-  - name: allpl-manifestnew
-    type: manifest
-    steps:
-      - IN: allpl-image2
-      - IN: allpl-release11
-        switch: off
+  #- name: allpl-manifestnew
+   # type: manifest
+   # steps:
+    #  - IN: allpl-image2
+     # - IN: allpl-release11
+      #  switch: off
         #switch: off
-      - IN: allpl-image1
+      #- IN: allpl-image1
        # versionNumber: 29000
        # versionName: "srelatest"
-      - IN: triggertestS1
+      #- IN: triggertestS1
     #  - TASK: managed
   
   
