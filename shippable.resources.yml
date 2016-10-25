@@ -55,7 +55,7 @@ resources:
     type: image
     integration: ship4-docker
     pointer:
-      sourceName: "shiphitchcock4/hitchcock4_sample_nodenew"
+      sourceName: "shiphitchcock4/hitchcock4_sample_node"
     seed:
       versionName: "latest"
       
