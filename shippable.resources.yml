@@ -32,12 +32,12 @@ resources:
 
   - name: myEmailS1
     type: notification
-    pointer:
+   # pointer:
       method: email
       recipients: 
-       # - "sreya@shippable.com"
-       # - "shiphitchcock4@gmail.com"
-       # - "sreyaj10@gmail.com"
+        - "sreya@shippable.com"
+        - "shiphitchcock4@gmail.com"
+        - "sreyaj10@gmail.com"
         
   - name: allpl-ecscluster
     type: cluster
