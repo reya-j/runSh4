@@ -22,7 +22,7 @@ resources:
       branch: master
       
   - name: mySlackS1 
-    type: notification
+    type: notifications
     integration: "ship-slack"
     pointer:
       recipients:
