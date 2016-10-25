@@ -4,7 +4,12 @@ jobs:
     type: manifest
     steps:
       - IN: allpl-image1
+      - IN: allpl-image2
+      - IN: allpl-dopts
+      - IN: allpl-scale2
       - IN: allpl-version
+      - IN: foo-resource
+      - IN: foo-resource2
        # versionNumber: 100
       - IN: triggertestS1
       - TASK: managed
@@ -25,7 +30,7 @@ jobs:
     steps:
       - IN: sample-runprivate
       #- IN: allpl-image1
-      - IN: allpl-version
+      #- IN: allpl-version
       #- IN: allpl-manifestN1
      # - IN: testallpl-ecsdeploy
      ## - IN: allpl-image1
@@ -34,7 +39,7 @@ jobs:
        
       #  versionName: 28361828b3079fce434d84b1f8388aed167be15f
        # versionNumber: 1
-      - IN: foo-resource
+     # - IN: foo-resource
      # - IN: env
       - IN: triggertestS1
       - TASK:
