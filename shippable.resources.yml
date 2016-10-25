@@ -21,7 +21,7 @@ resources:
       sourceName: shiphitchcock4/testprivate
       branch: master
       
-  - name: mySlackS1
+- name: mySlackS1
     type: notification
     integration: "ship-slack"
     pointer:
