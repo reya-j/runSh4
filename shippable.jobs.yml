@@ -2,12 +2,12 @@ jobs:
   
   - name: allpl-manifestnew
     type: manifest
-    steps:
+   # steps:
       #- IN: allpl-image1
-      #- IN: allpl-image2
+      - IN: allpl-image2
        # versionNumber: 29000
        # versionName: "srelatest"
-      #- IN: triggertestS1
+      - IN: triggertestS1
     #  - TASK: managed
   
   
