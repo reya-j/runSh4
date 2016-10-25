@@ -6,6 +6,14 @@ resources:
       sourceName: shiphitchcock4/sample-script-3
       branch: master
       
+  - name: plv2-dopts1
+    type: dockerOptions
+    version:
+      memory: 64
+      cpuShares: 8
+      portMappings:
+        - "80:80"
+      
   - name: sample-runprivate
     type: gitRepo
     integration: github
