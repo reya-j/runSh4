@@ -35,19 +35,19 @@ jobs:
     on_start:
       - NOTIFY: mySlackS1
       - NOTIFY: myEmailS1
-      #- script: echo 'y1'
+      - script: echo 'y1'
     on_success:
     #   #- uname -a
       - NOTIFY: myEmailS1
       - NOTIFY: mySlackS1
-      #- script: echo 'infra test'
+      - script: echo 'infra test'
       #- script: pwd
       #- script: ls
       #- script: echo 'newtesting success'
     # # - script: ./IN/sample-script-3/gitRepo/echo.sh
     on_failure:
       #- script: echo 'testing1 failure'
-      #- script: echo 'failure runSh'
+      - script: echo 'failure runSh'
       #- script: pwd
       #- script: ls
       - NOTIFY: myEmailS1
