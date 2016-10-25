@@ -4,7 +4,8 @@ jobs:
     type: manifest
     steps:
       #- IN: allpl-image1
-      - OUT: allpl-image2
+      - IN: allpl-image2
+        versionNumber: 2
       - IN: triggertestS1
       - TASK: managed
   
