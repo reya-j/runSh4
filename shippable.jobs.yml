@@ -2,7 +2,7 @@ jobs:
   
   - name: allpl-manifestnew
     type: manifest
-   # steps:
+    steps:
       - IN: allpl-image2
         switch: off
       - IN: allpl-image1
