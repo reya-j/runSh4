@@ -20,7 +20,7 @@ jobs:
     type: manifest
     steps:
       - IN: allpl-image1
-       # versionNumber: 2476
+        versionNumber: 2476
     #  - IN: allpl-manifestnew
      # - IN: allpl-image2
       - IN: allpl-dopts
