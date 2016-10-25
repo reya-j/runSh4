@@ -51,6 +51,14 @@ resources:
     seed:
       versionName: "deploy.1"
       
+   - name: allpl-image2
+    type: image
+    integration: ship4-docker
+    pointer:
+      sourceName: "shiphitchcock4/hitchcock4_sample_node"
+    seed:
+      versionName: "latest"
+      
   - name: allpl-dopts
     type: dockerOptions
     version:
