@@ -51,7 +51,7 @@ resources:
     seed:
       versionName: "deploy.1"
       
-   - name: allpl-image2
+  - name: allpl-image2
     type: image
     integration: ship4-docker
     pointer:
