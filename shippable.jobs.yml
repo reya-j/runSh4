@@ -5,7 +5,8 @@ jobs:
     steps:
       #- IN: allpl-image1
       - IN: allpl-image2
-        versionNumber: 29000
+       # versionNumber: 29000
+        versionName: "latest"
       - IN: triggertestS1
       - TASK: managed
   
