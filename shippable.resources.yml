@@ -21,7 +21,7 @@ resources:
       sourceName: shiphitchcock4/testprivate
       branch: master
       
-  - name: mySlackS1sreya
+  - name: mySlackS1
     type: notification
     integration: "ship-slack"
     pointer:
@@ -35,9 +35,9 @@ resources:
     pointer:
       method: email
       recipients: 
-        - "sreya@shippable.com"
-        - "shiphitchcock4@gmail.com"
-        - "sreyaj10@gmail.com"
+       # - "sreya@shippable.com"
+       # - "shiphitchcock4@gmail.com"
+       # - "sreyaj10@gmail.com"
         
   - name: allpl-ecscluster
     type: cluster
