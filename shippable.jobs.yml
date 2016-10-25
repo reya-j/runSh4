@@ -3,7 +3,8 @@ jobs:
   - name: allpl-manifestnew
     type: manifest
    # steps:
-      #- IN: allpl-image1
+      - IN: allpl-image1
+        switch: off
       - IN: allpl-image2
        # versionNumber: 29000
        # versionName: "srelatest"
@@ -19,7 +20,7 @@ jobs:
     type: manifest
     steps:
       - IN: allpl-image1
-        versionNumber: 2476
+       # versionNumber: 2476
     #  - IN: allpl-manifestnew
      # - IN: allpl-image2
       - IN: allpl-dopts
