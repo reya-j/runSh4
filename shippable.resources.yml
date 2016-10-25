@@ -21,7 +21,7 @@ resources:
       sourceName: shiphitchcock4/testprivate
       branch: master
       
-- name: mySlackS1
+  - name: mySlackS1
     type: notification
     integration: "ship-slack"
     pointer:
@@ -33,7 +33,7 @@ resources:
   - name: myEmailS1
     type: notification
     pointer:
-      method: slemailslack
+      method: slemailslacksreya
       recipients: 
         - "sreya@shippable.com"
         - "shiphitchcock4@gmail.com"
