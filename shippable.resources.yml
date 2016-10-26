@@ -32,10 +32,10 @@ resources:
     integration: "ship-slack"
     pointer:
       recipients:
-        - theyare
-       # - "#pipeline-pvt"
-       # - "#pipeline-public"
-       # - "@shiphitchcock4"
+       # - theyare
+        - "#pipeline-pvt"
+        - "#pipeline-public"
+        - "@shiphitchcock4"
 
   - name: myEmailS1
     type: notification
