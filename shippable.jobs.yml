@@ -20,6 +20,7 @@ jobs:
       # - IN: fl-manifest2multiimg
       #   switch: off
       - IN: allpl-dclcluster
+      - TASK: managed
     on_success:
       - NOTIFY: mySlackS1
       - NOTIFY: myEmailS1
