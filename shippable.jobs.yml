@@ -11,6 +11,21 @@ jobs:
       - IN: triggertestS1
     flags:
       - release_allpl
+  
+  - name: testallpl-dcldeploy1
+    type: deploy
+    steps:
+      - IN: allpl-manifestN1
+      - IN: triggertestS1
+      # - IN: fl-manifest2multiimg
+      #   switch: off
+      - IN: allpl-dclcluster
+    on_success:
+      - NOTIFY: mySlackS1
+      - NOTIFY: myEmailS1
+    on_failure:
+      - NOTIFY: mySlackS1
+      - NOTIFY: myEmailS1
       
   #- name: allpl-manifestnew
    # type: manifest
