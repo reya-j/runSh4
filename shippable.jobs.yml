@@ -12,7 +12,7 @@ jobs:
     flags:
       - release_allpl
   
-  - name: testallpl-dcldeploy1
+  - name: testallpl-dcldeploy11
     type: deploy
     steps:
       - IN: allpl-manifestN1
