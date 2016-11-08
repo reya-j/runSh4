@@ -161,6 +161,3 @@ jobs:
       - IN: runShtest1
       - TASK:
         - script: ./IN/sample-runSh1/gitRepo/echo.sh
-  
- 
- 
