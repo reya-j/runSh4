@@ -53,12 +53,8 @@ jobs:
       #  versionNumber: 2476
     #  - IN: allpl-manifestnew
      # - IN: allpl-image2
-      - IN: allpl-dopts
+      - IN: allpl-image2
       - IN: plv2-dopts1
-      - IN: allpl-scale2
-      #- IN: allpl-version
-      - IN: foo-resource
-      - IN: foo-resource2
       - IN: allpl-lb
        # versionNumber: 100
       - IN: triggertestS1
