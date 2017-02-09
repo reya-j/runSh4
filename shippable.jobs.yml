@@ -143,7 +143,10 @@ jobs:
       - script: pwd
       - script: ls
       - NOTIFY: mySlackS1
-      
+    always:
+      - script: echo "This works"
+      - NOTIFY: myEmailS1
+      - NOTIFY: mySlackS1  
   
       
   - name: runShkn1
